@@ -1,8 +1,19 @@
-.callout {
+.callout { max-width: 400px;
+    margin: 10px ;
+    border: 10px solid white ;
+    padding: 40px ;
+    background-color: blue;
+    font-display:white ;
 	
 }
 
-.callout img {
+.callout img {float: right;
+    margin: 20px;
+    border: 10px  black;
+    padding-top: 10px;
+    text-align: left;
+    font-size: medium;
+
 	
 }
 
