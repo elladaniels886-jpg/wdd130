@@ -132,8 +132,8 @@ header img {
 }
 
 .adventure-gallery img {
-    width: 100%;
-    max-width: 150px;
+     width:140px;
+    height: 100px;
 }
 
 footer {
