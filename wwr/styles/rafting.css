@@ -32,7 +32,7 @@ p,section,article {
     padding: 8px;
     color: black;
 }
-.social-media {
+.socialmedia {
     display: flex;
     gap: 10px;
 }
@@ -144,7 +144,7 @@ footer {
     padding: 10px;
     border: 2px solid darkblue;
 }
-.socialsmedia img {
+.socialmedia img {
     
     width:24px;
     height: 24px;
