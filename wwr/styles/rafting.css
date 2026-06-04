@@ -36,7 +36,7 @@ p,section,article {
     display: flex;
     gap: 10px;
 }
-.social-media a {
+.socialmedia a {
     text-decoration: none;
     
     
@@ -144,7 +144,7 @@ footer {
     padding: 10px;
     border: 2px solid darkblue;
 }
-.social-media img {
+.socialsmedia img {
     
     width:24px;
     height: 24px;
