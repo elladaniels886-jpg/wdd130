@@ -31,6 +31,7 @@ p,section,article {
     margin: 16px;
     padding: 8px;
     color: black;
+
 }
 .socialmedia {
     display: flex;
@@ -38,7 +39,6 @@ p,section,article {
 }
 .socialmedia a {
     text-decoration: none;
-    
     
 }
 
@@ -88,6 +88,7 @@ header {
     align-items: center;
     background-color:#f4f4f4;
     padding: 20px;
+    border: 2px solid navy;
 
     
 }
@@ -148,4 +149,79 @@ footer {
     
     width:24px;
     height: 24px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.contact-info {
+    text-align: center;
+    background-color: #ddd;
+    border: 2px solid navy;
+    font-weight: 700;
+
+  
+}
+
+.contact-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #fff;
+    border:2px solid navy;
+    padding: 15px;
+    
+}
+
+.contact-form fieldset {
+    border: 2px solid navy;
+    padding: 10px;
+}
+
+.employee-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+.employee-grid figure {
+    text-align: center;
+}
+.employees {
+    border: 2px solid navy ;
+    padding: 0;
+}
+button {
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #014f86;
+}
+
+#name, #email, #message {
+    padding: 10px ;
+    border: 2px solid navy;
+}
+
+.box {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
 }
