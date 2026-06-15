@@ -297,7 +297,7 @@ button:hover {
 .grid-item img {
     width: 100%;
     height: auto;
-    padding: bottom 1px;
+    padding-bottom :1px;
     
 }
 .hero {
