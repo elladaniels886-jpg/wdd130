@@ -8,23 +8,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
 }
 
+
+
 main,footer {
     width: 840px;
     margin: 0 auto;
 }
 
-h2{
+h2,h3{
     font-family: var(--heading-font);
     background-color: var(--accent1-color);
     color: #fff;
     text-align: center;
-    padding: 16px
+    padding: 20px;
+  
 }
 
 p,section,article {
@@ -42,39 +46,49 @@ p,section,article {
     
 }
 
-.hero {
+.purpose {
     position: relative;
-     border: 2px solid darkblue;
+    top: 10px;
+    width: 100%;
+    bottom: 50px;
+    border: 2px solid darkblue;
+    
 }
-.hero article {
+.purpose article {
     position: absolute;
     bottom: 20px;
     left: 20px;
     right: 20px;
     background-color: rgba(0, 0, 139, 0.7);
+   
+
     
 
 }
 article p {
     color: #fff;
 }
-.hero img {
+.purpose img {
     display: block;
     width: 100%;
     height: auto;
     
+    
 }
-h1 {
+.purpose h1 {
     top: 20px;
     width: 100%;
     padding: 16px;
     text-align: center;
     background-color: var(--accent1-color);
     color: #fff;
+    position: absolute;
+    font-family: var(--heading-font);
+
 }
 
 
-.hero article img {
+.purpose article img {
     float: right;
     width: 150px;
     background-color: var(--accent1-color);
@@ -167,7 +181,10 @@ footer {
     gap: 20px;
     padding: 20px;
 }
-
+.contact-info h1 {
+    position: relative;
+    font-family: var(--heading-font);
+}
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -220,4 +237,164 @@ button:hover {
     flex-direction: column;
     justify-content: space-between;
    
+}
+.newsletter {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f5f5f5;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.newsletter input {
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    padding: 0.7rem;
+    background-color: navy;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.cta {
+    text-align: center;
+    padding: 2rem;
+    background-color: #e0f7fa;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: navy;
+    color: white;
+    text-decoration: none;
+   
+}
+
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 2rem;
+}
+
+.grid-item {
+    text-align: center;
+    border: 2px solid navy;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    padding: bottom 1px;
+    
+}
+.hero {
+    /* position: relative; */
+    /* top: 10px; */
+    width: 100%;
+    
+}
+.hero img {
+    display: block;
+    width: 100%;
+    padding: 0;
+    height: auto;
+}
+
+
+.hero h1 {
+    font-family: var(--heading-font);
+    padding: 16px;
+    text-align: center;
+    color: #fff;
+}
+.hero > .hero-text{
+    background-color:navy;
+    width: 100%;
+    bottom: 50px;
+}
+    
+.trips-cta {
+    text-align: center;
+    padding:0px;
+    background-color: #e0f7fa;
+    width: 100%;
+    bottom: 50px;
+    border: 2px solid darkblue;
+}
+.trips-text{
+    padding: 0px;
+    display: flex;
+    flex-flow: column;
+}
+#raft-trips{
+    width: 100%;
+    padding: 10px;
+    background-color: navy;
+}
+.trips-text > div > h1 {
+    text-align: center;
+    color: #fff;
+    font-family: var(--heading-font);
+
+}
+.trips-text > div > a{
+    width: 50%;
+}
+
+.trips-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 2rem;
+}
+
+.trip-card {
+    text-align: center;
+    border: 2px solid navy;
+}
+
+.trip-card img {
+    width: 100%;
+    height: auto;
+}
+
+
+.trips-table-section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.trips-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trips-table th,
+.trips-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+
+
+@media (max-width: 768px) {
+    .trips-grid {
+        grid-template-columns: 1fr;
+    }
+    .home-grid {
+        grid-template-columns: 1fr;
+    }
 }
